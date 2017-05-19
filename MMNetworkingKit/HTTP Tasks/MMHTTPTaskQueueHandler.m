@@ -12,7 +12,7 @@
 #import "MMNetworkTaskQueue.h"
 #import <objc/runtime.h>
 
-@interface MMHTTPTask (STInternal)
+@interface MMHTTPTask (MMInternal)
 
 @property (atomic, assign) NSInteger statusCode;
 @property (atomic, strong) NSDictionary *responseHeaders;
@@ -75,7 +75,7 @@ static NSMapTable *MMHTTPTaskToSessionTask;
     MMHTTPTaskContentTypeMap = @{ @(MMHTTPTaskRequestJSON): @"application/json; charset=utf-8",
                                      @(MMHTTPTaskRequestKeyValueString): @"application/x-www-form-urlencoded",
                                      @(MMHTTPTaskRequestFormData): @"multipart/form-data" };
-    MMHTTPTaskFormDataBoundary = [NSString stringWithFormat:@"ST-Boundary-%@", [[NSUUID UUID] UUIDString]];
+    MMHTTPTaskFormDataBoundary = [NSString stringWithFormat:@"MM-Boundary-%@", [[NSUUID UUID] UUIDString]];
     MMHTTPTaskToSessionTask = [[NSMapTable alloc] initWithKeyOptions:NSPointerFunctionsWeakMemory valueOptions:NSPointerFunctionsWeakMemory capacity:50];
 }
 
