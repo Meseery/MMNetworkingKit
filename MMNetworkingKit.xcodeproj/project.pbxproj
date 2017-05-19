@@ -10,6 +10,20 @@
 		A2C469AB1ECF77FA006B0074 /* MMNetworkingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C469A11ECF77FA006B0074 /* MMNetworkingKit.framework */; };
 		A2C469B01ECF77FA006B0074 /* MMNetworkingKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C469AF1ECF77FA006B0074 /* MMNetworkingKitTests.m */; };
 		A2C469B21ECF77FA006B0074 /* MMNetworkingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C469A41ECF77FA006B0074 /* MMNetworkingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2C469F81ECF9B2D006B0074 /* MMHTTPTaskQueueHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C469F21ECF9B2D006B0074 /* MMHTTPTaskQueueHandler.m */; };
+		A2C469F91ECF9B2D006B0074 /* MMHTTPTaskQueueHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C469F31ECF9B2D006B0074 /* MMHTTPTaskQueueHandler.h */; };
+		A2C469FA1ECF9B2D006B0074 /* MMHTTPTaskParametersPacker.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C469F41ECF9B2D006B0074 /* MMHTTPTaskParametersPacker.h */; };
+		A2C469FB1ECF9B2D006B0074 /* MMHTTPTaskParametersPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C469F51ECF9B2D006B0074 /* MMHTTPTaskParametersPacker.m */; };
+		A2C469FC1ECF9B2D006B0074 /* MMHTTPTask.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C469F61ECF9B2D006B0074 /* MMHTTPTask.h */; };
+		A2C469FD1ECF9B2D006B0074 /* MMHTTPTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C469F71ECF9B2D006B0074 /* MMHTTPTask.m */; };
+		A2C46A061ECF9B55006B0074 /* MMNetworkTaskChain.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C469FE1ECF9B55006B0074 /* MMNetworkTaskChain.m */; };
+		A2C46A071ECF9B55006B0074 /* MMNetworkTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C469FF1ECF9B55006B0074 /* MMNetworkTaskQueue.m */; };
+		A2C46A081ECF9B55006B0074 /* MMNetworkTaskQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C46A001ECF9B55006B0074 /* MMNetworkTaskQueue.h */; };
+		A2C46A091ECF9B55006B0074 /* MMNetworkTask.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C46A011ECF9B55006B0074 /* MMNetworkTask.h */; };
+		A2C46A0A1ECF9B55006B0074 /* MMNetworkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C46A021ECF9B55006B0074 /* MMNetworkTask.m */; };
+		A2C46A0B1ECF9B55006B0074 /* MMNetworkTaskGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C46A031ECF9B55006B0074 /* MMNetworkTaskGroup.m */; };
+		A2C46A0C1ECF9B55006B0074 /* MMNetworkTaskGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C46A041ECF9B55006B0074 /* MMNetworkTaskGroup.h */; };
+		A2C46A0D1ECF9B55006B0074 /* MMNetworkTaskChain.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C46A051ECF9B55006B0074 /* MMNetworkTaskChain.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +43,20 @@
 		A2C469AA1ECF77FA006B0074 /* MMNetworkingKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMNetworkingKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C469AF1ECF77FA006B0074 /* MMNetworkingKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMNetworkingKitTests.m; sourceTree = "<group>"; };
 		A2C469B11ECF77FA006B0074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C469F21ECF9B2D006B0074 /* MMHTTPTaskQueueHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHTTPTaskQueueHandler.m; sourceTree = "<group>"; };
+		A2C469F31ECF9B2D006B0074 /* MMHTTPTaskQueueHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHTTPTaskQueueHandler.h; sourceTree = "<group>"; };
+		A2C469F41ECF9B2D006B0074 /* MMHTTPTaskParametersPacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHTTPTaskParametersPacker.h; sourceTree = "<group>"; };
+		A2C469F51ECF9B2D006B0074 /* MMHTTPTaskParametersPacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHTTPTaskParametersPacker.m; sourceTree = "<group>"; };
+		A2C469F61ECF9B2D006B0074 /* MMHTTPTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHTTPTask.h; sourceTree = "<group>"; };
+		A2C469F71ECF9B2D006B0074 /* MMHTTPTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHTTPTask.m; sourceTree = "<group>"; };
+		A2C469FE1ECF9B55006B0074 /* MMNetworkTaskChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNetworkTaskChain.m; sourceTree = "<group>"; };
+		A2C469FF1ECF9B55006B0074 /* MMNetworkTaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNetworkTaskQueue.m; sourceTree = "<group>"; };
+		A2C46A001ECF9B55006B0074 /* MMNetworkTaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNetworkTaskQueue.h; sourceTree = "<group>"; };
+		A2C46A011ECF9B55006B0074 /* MMNetworkTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNetworkTask.h; sourceTree = "<group>"; };
+		A2C46A021ECF9B55006B0074 /* MMNetworkTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNetworkTask.m; sourceTree = "<group>"; };
+		A2C46A031ECF9B55006B0074 /* MMNetworkTaskGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNetworkTaskGroup.m; sourceTree = "<group>"; };
+		A2C46A041ECF9B55006B0074 /* MMNetworkTaskGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNetworkTaskGroup.h; sourceTree = "<group>"; };
+		A2C46A051ECF9B55006B0074 /* MMNetworkTaskChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNetworkTaskChain.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +99,8 @@
 		A2C469A31ECF77FA006B0074 /* MMNetworkingKit */ = {
 			isa = PBXGroup;
 			children = (
+				A2C469F11ECF9B02006B0074 /* HTTP Tasks */,
+				A2C469E01ECF9ADE006B0074 /* Network Tasks */,
 				A2C469A41ECF77FA006B0074 /* MMNetworkingKit.h */,
 				A2C469A51ECF77FA006B0074 /* Info.plist */,
 			);
@@ -86,6 +116,34 @@
 			path = MMNetworkingKitTests;
 			sourceTree = "<group>";
 		};
+		A2C469E01ECF9ADE006B0074 /* Network Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				A2C46A011ECF9B55006B0074 /* MMNetworkTask.h */,
+				A2C46A021ECF9B55006B0074 /* MMNetworkTask.m */,
+				A2C46A001ECF9B55006B0074 /* MMNetworkTaskQueue.h */,
+				A2C469FF1ECF9B55006B0074 /* MMNetworkTaskQueue.m */,
+				A2C46A041ECF9B55006B0074 /* MMNetworkTaskGroup.h */,
+				A2C46A031ECF9B55006B0074 /* MMNetworkTaskGroup.m */,
+				A2C46A051ECF9B55006B0074 /* MMNetworkTaskChain.h */,
+				A2C469FE1ECF9B55006B0074 /* MMNetworkTaskChain.m */,
+			);
+			path = "Network Tasks";
+			sourceTree = "<group>";
+		};
+		A2C469F11ECF9B02006B0074 /* HTTP Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				A2C469F21ECF9B2D006B0074 /* MMHTTPTaskQueueHandler.m */,
+				A2C469F31ECF9B2D006B0074 /* MMHTTPTaskQueueHandler.h */,
+				A2C469F41ECF9B2D006B0074 /* MMHTTPTaskParametersPacker.h */,
+				A2C469F51ECF9B2D006B0074 /* MMHTTPTaskParametersPacker.m */,
+				A2C469F61ECF9B2D006B0074 /* MMHTTPTask.h */,
+				A2C469F71ECF9B2D006B0074 /* MMHTTPTask.m */,
+			);
+			path = "HTTP Tasks";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +151,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C469FA1ECF9B2D006B0074 /* MMHTTPTaskParametersPacker.h in Headers */,
+				A2C46A0C1ECF9B55006B0074 /* MMNetworkTaskGroup.h in Headers */,
+				A2C469F91ECF9B2D006B0074 /* MMHTTPTaskQueueHandler.h in Headers */,
 				A2C469B21ECF77FA006B0074 /* MMNetworkingKit.h in Headers */,
+				A2C46A0D1ECF9B55006B0074 /* MMNetworkTaskChain.h in Headers */,
+				A2C469FC1ECF9B2D006B0074 /* MMHTTPTask.h in Headers */,
+				A2C46A091ECF9B55006B0074 /* MMNetworkTask.h in Headers */,
+				A2C46A081ECF9B55006B0074 /* MMNetworkTaskQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +207,7 @@
 		A2C469981ECF77FA006B0074 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MM;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Meseery;
 				TargetAttributes = {
@@ -197,6 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C469FB1ECF9B2D006B0074 /* MMHTTPTaskParametersPacker.m in Sources */,
+				A2C46A0A1ECF9B55006B0074 /* MMNetworkTask.m in Sources */,
+				A2C46A061ECF9B55006B0074 /* MMNetworkTaskChain.m in Sources */,
+				A2C469F81ECF9B2D006B0074 /* MMHTTPTaskQueueHandler.m in Sources */,
+				A2C469FD1ECF9B2D006B0074 /* MMHTTPTask.m in Sources */,
+				A2C46A0B1ECF9B55006B0074 /* MMNetworkTaskGroup.m in Sources */,
+				A2C46A071ECF9B55006B0074 /* MMNetworkTaskQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +401,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MMNetworkingKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meseery.MMNetworkingKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +420,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MMNetworkingKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meseery.MMNetworkingKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -394,6 +469,7 @@
 				A2C469B71ECF77FA006B0074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2C469B81ECF77FA006B0074 /* Build configuration list for PBXNativeTarget "MMNetworkingKitTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +478,7 @@
 				A2C469BA1ECF77FA006B0074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
