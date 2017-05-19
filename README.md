@@ -7,21 +7,21 @@ Networking framework for iOS and OS X
 It provides basic properties and callbacks for subclassing.
 
 #### MMNetworkTaskDelegate
-It is the delegate protocol for observing result of MMNetworkTask, mostly it is used in view controller.
+It is the delegate protocol for observing result of ```MMNetworkTask```, mostly it is used in view controller.
 
 #### MMNetworkTaskGroup
 A network task group for executing network tasks serially or concurrently.
 
 #### MMHTTPTaskQueueHandler
-It is a HTTP based implementation of MMNetworkTaskQueueHandler. It provides different ways to pack request and parse response, e.g. MMHTTPTaskRequestJSON is for JSON format request body, MMHTTPTaskResponseJSON is for JSON format response data and MMHTTPTaskRequestFormData is for form data format request body which is mostly used for uploading file.
+It is a HTTP based implementation of ```MMNetworkTaskQueueHandler```. It provides different ways to pack request and parse response, e.g. ```MMHTTPTaskRequestJSON``` is for JSON format request body, ```MMHTTPTaskResponseJSON``` is for JSON format response data and `MMHTTPTaskRequestFormData` is for form data format request body which is mostly used for uploading file.
 
 ### How to use ?
 
-#### Step 1: Setup MMNetworkTaskQueue after your app launch
+#### Step 1: Setup `MMNetworkTaskQueue` after your app launch
 ```objc
 NSURL *baseUrl = [NSURL URLWithString:@"http://example.com"];
 MMHTTPTaskQueueHandler *httpHandler = [[MMHTTPTaskQueueHandler alloc] initWithBaseURL:baseUrl];
-[MMTaskQueue sharedQueue].handler = httpHandler;
+[MMNetworkTaskQueue sharedQueue].handler = httpHandler;
 ```
 
 #### Step 2: Create your own task
@@ -98,7 +98,7 @@ MMHTTPTaskQueueHandler *httpHandler = [[MMHTTPTaskQueueHandler alloc] initWithBa
 @end
 ```
 
-#### Step 3: Send net task and delegate for the result
+#### Step 3: Create a test task and delegate for the result
 ```objc
 MMTestTask *testTask = [MMTestTask new];
 testTask.title = @"Test Task Title";
@@ -178,9 +178,9 @@ downloadQueue.maxConcurrentTasksCount = 2;
  */
 ```
 ### Execute multiple tasks
-MMNetworkTaskGroup supports two modes: MMNetworkTaskGroupModeSerial and MMNetworkTaskGroupModeConcurrent.
-MMNetworkTaskGroupModeSerial will execute a net task after the previous net task is finished.
-MMNetworkTaskGroupModeConcurrent will execute all net tasks concurrently.
+`MMNetworkTaskGroup` supports two modes: `MMNetworkTaskGroupModeSerial` and `MMNetworkTaskGroupModeConcurrent`.
+`MMNetworkTaskGroupModeSerial` will execute a net task after the previous net task is finished.
+`MMNetworkTaskGroupModeConcurrent` will execute all net tasks concurrently.
 ```objc
 MMGetTask *task1 = [MMGetTask new];
 task1.id = 1;
