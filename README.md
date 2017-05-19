@@ -7,7 +7,7 @@ Networking framework for iOS and OS X
 It provides basic properties and callbacks for subclassing.
 
 #### MMNetworkTaskDelegate
-It is the delegate protocol for observing result of STNetTask, mostly it is used in view controller.
+It is the delegate protocol for observing result of MMNetworkTask, mostly it is used in view controller.
 
 #### MMNetworkTaskGroup
 A network task group for executing network tasks serially or concurrently.
@@ -32,7 +32,7 @@ MMHTTPTaskQueueHandler *httpHandler = [[MMHTTPTaskQueueHandler alloc] initWithBa
 @property (nonatomic, strong) NSString *body;
 @property (nonatomic, strong) NSDate *date;
 @property (nonatomic, assign) int userId;
-@property (nonatomic, strong) NSString<STIgnore> *ignored; // This property is ignored when packing the request.
+@property (nonatomic, strong) NSString<MMIgnore> *ignored; // This property is ignored when packing the request.
 @property (nonatomic, strong, readonly) NSDictionary *post;
 
 @end
