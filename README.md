@@ -1,6 +1,14 @@
 # MMNetworkingKit
 Networking framework for iOS and OS X
 
+## Get Started
+
+### Podfile
+
+```ruby
+platform :ios, '9.0'
+pod 'MMNetworkingKit'
+```
 
 ### Main Components
 #### MMNetworkTask
