@@ -16,7 +16,8 @@ FOUNDATION_EXPORT const unsigned char MMNetworkingKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MMNetworkingKit/PublicHeader.h>
 
-#import <MMNetworkingKit/MMNetworkTaskChain.h>
+#import <MMNetworkingKit/MMNetworkTask.h>
+#import <MMNetworkingKit/MMNetworkTaskQueue.h>
 #import <MMNetworkingKit/MMNetworkTaskGroup.h>
 #import <MMNetworkingKit/MMHTTPTask.h>
 #import <MMNetworkingKit/MMHTTPTaskQueueHandler.h>
